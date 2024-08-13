@@ -1,0 +1,25 @@
+programa {
+  funcao inicio() {
+  //Declarando variáveis.
+  inteiro A, B, C  
+  real soma
+//Solicitando dados.
+escreva ("digite o valor de A: ")
+leia ("A")
+
+escreva ("digite o valor de B: ")
+leia("B")
+
+escreva ("digite o valor de C: ")
+leia ("C")
+
+//Calculando.
+soma = A+B
+
+//verificando.
+se (A+B < C)
+escreva ("A+B menor que C")
+senao
+escreva ("A+B>C")
+  }
+}
