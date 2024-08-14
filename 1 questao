@@ -1,6 +1,6 @@
 programa {
   funcao inicio() {
-  //Declarando vari·veis.
+  //Declarando vari√°veis.
   inteiro A, B, C  
   real soma
 //Solicitando dados.
