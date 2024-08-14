@@ -1,6 +1,6 @@
 programa {
   funcao inicio() {
-//declarando vari·veis
+//declarando vari√°veis
 inteiro primeiro_numero, segundo_numero, soma, multiplicacao
 
 //solicitando dados
@@ -20,6 +20,6 @@ escreva ("soma dos valores: " + soma)
 
 }
 senao
-escreva ("multiplicaÁ„o de valores: " + multiplicacao )
+escreva ("multiplica√ß√£o de valores: " + multiplicacao )
   }
 }
