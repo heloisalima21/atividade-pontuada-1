@@ -1,6 +1,6 @@
 programa {
   funcao inicio() {
-//declarando vari·veis
+//declarando vari√°veis
 cadeia nome, estado_civil
 caracter sexo
 inteiro tempo
