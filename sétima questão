@@ -1,6 +1,6 @@
 programa {
   funcao inicio() {
-//declarando vari·veis.
+//declarando vari√°veis.
 cadeia produto
 inteiro quantidade
 real peexo_total=0,preco=0,desconto=0
@@ -12,7 +12,7 @@ leia (produto)
 escreva ("digite a quantidade: ")
 leia(quantidade)
 
-escreva ("digite o preÁo unit·rio")
+escreva ("digite o pre√ßo unit√°rio")
 leia (preco)
 
 //calculando.
