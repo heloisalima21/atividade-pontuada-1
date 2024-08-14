@@ -1,6 +1,6 @@
 programa {
   funcao inicio() {
-//declarando vari·veis.
+//declarando vari√°veis.
 real  primeira_nota, segunda_nota
 real soma, media
 
@@ -23,7 +23,7 @@ se (media < 4)
 escreva("reprovado")
 
 se (media >= 4 e media < 6)
-escreva("recuperaÁ„o")
+escreva("recupera√ß√£o")
 
   }
 }
