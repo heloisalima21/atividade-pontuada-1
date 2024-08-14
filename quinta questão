@@ -1,20 +1,20 @@
 programa {
   funcao inicio() {
-//declarando as variáveis.
+//declarando as variÃ¡veis.
 real primeiro_numero, segundo_numero, resultado_operacao
 cadeia operacao
 
 //solicitando os dados
-escreva("Digite o primeiro número: ")
+escreva("Digite o primeiro nÃºmero: ")
 leia(primeiro_numero)
 
-escreva("Digite o segundo número: ")
+escreva("Digite o segundo nÃºmero: ")
 leia(segundo_numero)
 
-escreva("Qual é a operação: ")
+escreva("Qual Ã© a operaÃ§Ã£o: ")
 leia(operacao)
 
-//verificando os operadores lógicos e as condicionais.
+//verificando os operadores lÃ³gicos e as condicionais.
    
 se (operacao == "+"){     
 resultado_operacao  = primeiro_numero + segundo_numero
