@@ -1,7 +1,7 @@
 programa {
   funcao inicio() {
 
-//declarando vari·veis.
+//declarando vari√°veis.
 real preco_certo_maca, preco_certo_morango, preco_total
 real preco_maca1, preco_maca2, preco_morango1, preco_morango2
 real maca, morango
@@ -9,7 +9,7 @@ real maca, morango
 escreva ("digite a quantidade de morangos [kg] ")
 leia (morango)
 
-escreva ("digite a quantidade de maÁ„s [kg]")
+escreva ("digite a quantidade de ma√ß√£s [kg]")
 leia (maca)
 preco_morango1 * 2.50
 preco_morango2 * 2.20
@@ -18,7 +18,7 @@ preco_maca1 * 1.80
 preco_maca2 * 1.50
 
 //calculando
-escreva ("quantidade de maÁ„s: " + maca)
+escreva ("quantidade de ma√ß√£s: " + maca)
 escreva ("\nQuantidade de morangos: " + morango)
 
 //verificando
