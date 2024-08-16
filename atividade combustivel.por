@@ -1,0 +1,57 @@
+programa
+{
+	
+	
+funcao inicio() {
+//declarando variáveis.
+real desconto,litros, alcool,gasolina, valor
+cadeia combustiveis
+
+alcool = 3.79 
+gasolina = 6.59
+
+//solicitando dados.
+escreva("Qual é o combustivel que você quer? ")
+escreva("\nA para alcool ")
+escreva("\nG para gasolina ")
+leia(combustiveis)
+
+escreva("\nQuantos litros de combustivel você quer? ")
+leia(litros)
+    
+//verificando.
+se(litros <= 25 e combustiveis == "a"){
+valor = (alcool * litros) - 2/100  
+escreva("O valor foi de: " + valor)}
+
+senao se(litros > 25 e combustiveis == "a") {
+valor = (alcool * litros) - 4/100
+escreva("O valor foi de: " + valor)
+    }
+
+se(litros <= 25 e combustiveis == "g"){
+valor = (gasolina * litros) - 3/100  
+escreva("O valor foi de: " + valor)}
+
+senao se(litros > 25 e combustiveis == "g") {
+valor = (gasolina * litros) - 5/100
+escreva("O valor foi de: " + valor)
+
+
+    
+    }
+    
+		
+	}
+}
+/* $$$ Portugol Studio $$$ 
+ * 
+ * Esta seção do arquivo guarda informações do Portugol Studio.
+ * Você pode apagá-la se estiver utilizando outro editor.
+ * 
+ * @POSICAO-CURSOR = 306; 
+ * @PONTOS-DE-PARADA = ;
+ * @SIMBOLOS-INSPECIONADOS = ;
+ * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
+ * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
+ */
